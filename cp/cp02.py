@@ -79,7 +79,7 @@ def principal():
         for i in range(4):
             contador = contadores[i]
             porcentagem = (contador / total_execucoes) * 100
-            print(f"Rotina {i + 1} - {contador} vezes - {porcentagem:.0f}%")
+            print(f"Rotina {i + 1} - {contador} vezes - {porcentagem}%")
     else:
         print("Nenhuma rotina foi executada.")
 
