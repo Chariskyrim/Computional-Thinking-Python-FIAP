@@ -75,7 +75,7 @@ def menu():
         print("1. Modificar as vogais de uma string para maiúsculas")
         print("2. Encontrar índices de um caractere em uma string")
         print("3. Verificar se uma string é um número")
-        print("4. Verificar se uma string representa um número flutuante")
+        print("4. Verificar se uma string representa um número float")
         print("5. Calcular CPF completo (com base nos 9 primeiros dígitos)")
         print("6. Validar CPF completo")
         print("7. Sair")
@@ -97,7 +97,7 @@ def menu():
         
         elif opcao == "4":
             string = input("Digite a string: ")
-            print("É um número flutuante?", isfloat(string))
+            print("É um número float?", isfloat(string))
         
         elif opcao == "5":
             cpf = input("Digite os 9 primeiros dígitos do CPF: ")
