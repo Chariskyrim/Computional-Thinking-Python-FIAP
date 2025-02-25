@@ -51,7 +51,7 @@ E-mail...: {dados["email"]}
 # %%
 def preenche_dicionario(d: dict) -> None:
     d["nome"] = input("Nome: ")
-    d["idade"] = int(input("Idade"))
+    d["idade"] = input("Idade")
     d["email"] = input("email: ")
 
 def exibe_dicionario(d: dict) -> None:
@@ -122,7 +122,7 @@ print(valor_removido)
 print(dicionario1)
 
 # %% [markdown]
-# o metodo get() é usado para obter p valor de uma chave específica. Ele retorna o valor correspondente
+# o metodo get() é usado para obter o valor de uma chave específica. Ele retorna o valor correspondente
 
 # %%
 valor = dicionario1.get("Nome")
