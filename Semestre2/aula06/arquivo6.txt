@@ -1,0 +1,3 @@
+Neste exemplo
+estamos treinando
+o método readlines()
